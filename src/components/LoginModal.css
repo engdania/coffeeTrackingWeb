@@ -1,0 +1,87 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(59, 36, 23, 0.55);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 16px;
+  overflow-y: auto;
+  z-index: 40;
+}
+
+.modal {
+  background: var(--cream-2);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(59, 36, 23, 0.2);
+}
+
+.modal h3 {
+  font-family: var(--font-display);
+  font-size: 22px;
+  margin: 0 0 18px;
+  color: var(--coffee-dark);
+}
+
+.field {
+  margin-bottom: 14px;
+}
+
+.field label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+
+.field input {
+  width: 100%;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 10px 12px;
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.field input:focus {
+  outline: 2px solid var(--caramel);
+  outline-offset: 1px;
+}
+
+.form-error {
+  color: var(--cherry);
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+.mode-toggle {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-dim);
+  margin: 16px 0 0;
+}
+
+.mode-toggle button {
+  background: none;
+  border: none;
+  color: var(--caramel);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}

@@ -1,0 +1,113 @@
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.recipe-card.top .rank-badge {
+  display: inline-flex;
+}
+
+.rank-badge {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  background: var(--cherry);
+  color: var(--cream);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(59, 36, 23, 0.25);
+}
+
+.recipe-top-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.recipe-title {
+  font-family: var(--font-display);
+  font-size: 19px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  color: var(--coffee-dark);
+}
+
+.recipe-meta {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.recipe-meta b {
+  color: var(--coffee);
+  font-weight: 600;
+}
+
+.stat-row {
+  display: flex;
+  gap: 14px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  flex-wrap: wrap;
+}
+
+.stat-row span b {
+  color: var(--text);
+}
+
+.recipe-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-dim);
+}
+
+.steps {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text-dim);
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.like-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 14px;
+  color: var(--text-dim);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  transition: all 0.15s ease;
+}
+
+.like-btn.liked {
+  border-color: var(--cherry);
+  color: var(--cherry);
+  background: rgba(166, 67, 58, 0.08);
+}
+
+.like-btn:hover {
+  border-color: var(--cherry);
+}

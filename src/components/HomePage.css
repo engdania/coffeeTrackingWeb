@@ -1,0 +1,83 @@
+.hero {
+  padding: 56px 0 48px;
+  max-width: 640px;
+}
+
+.hero .eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--caramel);
+  display: block;
+  margin-bottom: 14px;
+}
+
+.hero-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(34px, 5.5vw, 56px);
+  line-height: 1.08;
+  margin: 0 0 18px;
+  color: var(--coffee-dark);
+}
+
+.hero-title span {
+  color: var(--caramel);
+  font-style: italic;
+  font-weight: 500;
+}
+
+.hero-sub {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-dim);
+  margin: 0 0 26px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.quote-spotlight {
+  border-left: 3px solid var(--caramel);
+  max-width: 480px;
+}
+
+.quote-text {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0 0 10px;
+  color: var(--coffee-dark);
+}
+
+.quote-author {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--caramel);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.news {
+  padding: 24px 0 56px;
+}
+
+.news-card h3 {
+  font-family: var(--font-display);
+  font-size: 17px;
+  margin: 0 0 8px;
+  color: var(--coffee-dark);
+}
+
+.news-card p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-dim);
+  margin: 0;
+}

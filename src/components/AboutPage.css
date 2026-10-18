@@ -1,0 +1,18 @@
+.about-page {
+  padding: 24px 0 56px;
+}
+
+.about-card {
+  max-width: 720px;
+}
+
+.about-card p {
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-dim);
+  margin: 0 0 14px;
+}
+
+.about-card p:last-child {
+  margin-bottom: 0;
+}

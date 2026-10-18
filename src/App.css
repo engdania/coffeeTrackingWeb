@@ -1,0 +1,12 @@
+.app {
+  min-height: 100%;
+  background-image:
+    radial-gradient(circle at 10% 0%, rgba(198, 134, 66, 0.10), transparent 45%),
+    radial-gradient(circle at 90% 100%, rgba(166, 67, 58, 0.06), transparent 40%);
+}
+
+main {
+  padding: 0 clamp(20px, 5vw, 64px) 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
